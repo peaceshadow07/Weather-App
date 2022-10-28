@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../credentials.js"></script>
+    <script src="../JS/script"></script>
+    <title>Weather </title>
+</head>
+<body>
+    <div class="container">
+        <input type="search" id="search" name="search" placeholder="Search city" list="cities">
+        <datalist id="cities"></datalist>
+        <div id="current-weather">
+            <h1 class="city">City Name</h1>
+            <p class="temp">Temp</p>
+            <p class="description">Description</p>
+            <p class="min-max-temp">H L</p>
+        </div>
+        <div class="aqi-container">
+            <h1>Air Quality Index</h1>
+            <p class="aqi">Good</p>
+            <p class="pm2_5">PM2.5  : --</p>
+            <p class="pm10">PM10  : --</p>
+        </div>
+        <div id="hourly-weather">
+            <h1>Hourly Forecast</h1>
+            <div class = "hourly-container">
+                <!-- <div>
+                    <p class = "time">Now</p>
+                    <img class="icon" src="" alt="">ICON
+                    <p class = "hourly-temp">temp</p>
+                </div> -->
+            </div>
+        </div>
+        
+        <div id="five-day-weather">
+            <h1>5 Day Forecast</h1>
+            <div class="five-day-forecast-container">
+                <!-- <div class="day-wise-forecast">
+                    <h3 class="day">Today</h3>
+                    <img class="icon" src="" alt="">
+                    <p class="min-temp">Low</p>
+                    <p class="max-temp">High</p>
+                </div> -->
+            </div>
+        </div>
+        <div id="feels-like">
+            <h2>Feels Like</h2>
+            <p class="feels-like-temp">temp</p>
+        </div>
+        <div id="humidity">
+            <h2>Humidity</h2>
+            <p class="humidity-value">Value</p>
+        </div>
+        
+    </div>
+</body>
+</html>
